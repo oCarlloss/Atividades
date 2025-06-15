@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício 02 - 2º Bimestre</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    section { margin-bottom: 30px; }
+    input { margin: 5px; }
+  </style>
+</head>
+<body>
+  <h1>Exercício 02 - 2º Bimestre</h1>
+
+  <section>
+    <h2>1 - Cotação do dólar</h2>
+    Cotação atual: <input type="number" id="cotacao1" step="0.01"><br>
+    <button onclick="ex1()">Calcular valores</button>
+    <p id="res1"></p>
+  </section>
+
+  <section>
+    <h2>2 - Omelete</h2>
+    Quantas pessoas vão comer omelete? <input type="number" id="pessoas2"><br>
+    <button onclick="ex2()">Calcular ingredientes</button>
+    <p id="res2"></p>
+  </section>
+
+  <section>
+    <h2>3 - Operações matemáticas</h2>
+    Número 1: <input type="number" id="n1_3"><br>
+    Número 2: <input type="number" id="n2_3"><br>
+    <button onclick="ex3()">Calcular operações</button>
+    <p id="res3"></p>
+  </section>
+
+  <section>
+    <h2>4 - Pizza e refrigerantes</h2>
+    Sabores escolhidos (1 a 4):<br>
+    <input type="text" id="sabor1_4" placeholder="Sabor 1">
+    <input type="text" id="sabor2_4" placeholder="Sabor 2">
+    <input type="text" id="sabor3_4" placeholder="Sabor 3">
+    <input type="text" id="sabor4_4" placeholder="Sabor 4"><br>
+    Quantidade de refrigerantes: <input type="number" id="refri4"><br>
+    <button onclick="ex4()">Calcular total</button>
+    <p id="res4"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

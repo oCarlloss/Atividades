@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades de Lógica</title>
+</head>
+<body>
+    <h1>Lista de Atividades de Lógica</h1>
+
+    <section>
+        <h2>7. Dias Passados no Ano</h2>
+        <label for="dia7">Dia:</label>
+        <input type="number" id="dia7" min="1" max="30"><br>
+        <label for="mes7">Mês:</label>
+        <input type="number" id="mes7" min="1" max="12"><br>
+        <button onclick="calcularDiasAno()">Calcular</button>
+        <p id="resultado7"></p>
+    </section>
+
+    <section>
+        <h2>8. Venda de Camisetas</h2>
+        <label for="qtdPequena8">Quantidade de Camisetas Pequenas (R$10):</label>
+        <input type="number" id="qtdPequena8" min="0" value="0"><br>
+        <label for="qtdMedia8">Quantidade de Camisetas Médias (R$12):</label>
+        <input type="number" id="qtdMedia8" min="0" value="0"><br>
+        <label for="qtdGrande8">Quantidade de Camisetas Grandes (R$15):</label>
+        <input type="number" id="qtdGrande8" min="0" value="0"><br>
+        <button onclick="calcularVendaCamisetas()">Calcular Valor Total</button>
+        <p id="resultado8"></p>
+    </section>
+
+    <section>
+        <h2>9. Distância entre Dois Pontos</h2>
+        <h3>Ponto 1 (x1, y1)</h3>
+        <label for="x1_9">x1:</label>
+        <input type="number" id="x1_9"><br>
+        <label for="y1_9">y1:</label>
+        <input type="number" id="y1_9"><br><br>
+        <h3>Ponto 2 (x2, y2)</h3>
+        <label for="x2_9">x2:</label>
+        <input type="number" id="x2_9"><br>
+        <label for="y2_9">y2:</label>
+        <input type="number" id="y2_9"><br>
+        <button onclick="calcularDistanciaPontos()">Calcular Distância</button>
+        <p id="resultado9"></p>
+    </section>
+
+    <section>
+        <h2>10. Conversor de Tempo (Dias para Anos, Meses, Dias)</h2>
+        <label for="totalDias10">Total de Dias:</label>
+        <input type="number" id="totalDias10" min="0"><br>
+        <button onclick="converterTempoTrabalho()">Converter</button>
+        <p id="resultado10"></p>
+    </section>
+
+    <section>
+        <h2>11. Cálculo de Salário</h2>
+        <label for="salarioInicial11">Salário Inicial:</label>
+        <input type="number" id="salarioInicial11" step="0.01" min="0"><br>
+        <button onclick="calcularSalario()">Calcular</button>
+        <p id="resultado11_inicial"></p>
+        <p id="resultado11_aumento"></p>
+        <p id="resultado11_final"></p>
+    </section>
+
+    <section>
+        <h2>12. Extração de Centena, Dezena, Unidade</h2>
+        <label for="numero12">Número (até 3 dígitos):</label>
+        <input type="number" id="numero12" min="0" max="999"><br>
+        <button onclick="extrairDigitos()">Extrair</button>
+        <p id="resultado12"></p>
+    </section>
+
+    <section>
+        <h2>13. Área da Pizza</h2>
+        <label for="raio13">Raio da Pizza:</label>
+        <input type="number" id="raio13" step="0.01" min="0"><br>
+        <button onclick="calcularAreaPizza()">Calcular Área</button>
+        <p id="resultado13"></p>
+    </section>
+
+    <section>
+        <h2>14. Divisão de Conta de Bar</h2>
+        <label for="valorTotal14">Valor Total da Conta:</label>
+        <input type="number" id="valorTotal14" step="0.01" min="0"><br>
+        <button onclick="dividirContaBar()">Dividir Conta</button>
+        <p id="resultado14_carlos"></p>
+        <p id="resultado14_andre"></p>
+        <p id="resultado14_felipe"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
